@@ -1,0 +1,30 @@
+Criar variaveis do tipo objeto
+
+Variaveis no tipo objeto é uma variavel que consegue guardar diversos valores.
+É possivel tambem, criar uma function dentro de um dos valores.
+
+SINTAXE:
+
+var pessoa = {
+  nome: 'Pablo',
+  sobrenome:'Bidiaki',
+  idade: 19,
+  altura: 1.80,
+  casado: false,
+  NomeCompleto: function(){
+    pessoa.nome = pessoa.nome + " " + pessoa.sobrenome
+  }
+}
+
+Exemplo disponivel: "Aula001"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Condição ternaria 
+
+É uma forma mais simples de se fazer um if e else.
+
+SINTAXE:
+
+var nomeVariavel = condição ? (Retorno caso for verdadeiro) : (Retorno caso for falso)
+ 
+Exemplo disponivel: "Aula002"
+
